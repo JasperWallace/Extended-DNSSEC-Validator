@@ -73,7 +73,7 @@ org.os3sec.Extval.DNSResolver = {
   //RR types
   RRTYPE_A: 1,
   RRTYPE_AAAA: 28,
-  RRTYPE_TLSA: 65468, // Number not assigned yet, using this for now
+  RRTYPE_TLSA: 52, // Number assigned in RFC 6698
   
   //Returns a domain record containing addresses, and txt records
   getDomainRecord: function(domain, resolvipv4, resolvipv6) {

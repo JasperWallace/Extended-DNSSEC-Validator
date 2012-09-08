@@ -41,7 +41,7 @@ window.addEventListener("unload", function() { org.os3sec.Extval.Extension.unini
  */
 org.os3sec.Extval.Extension = {
   extvalExtID: "extended-validator@os3sec.org",
-  debugOutput: false,
+  debugOutput: true,
   debugPrefix: "extval: ",
   prefBranch : "extensions.extval.",
   prefs: null,
